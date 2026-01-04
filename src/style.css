@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TBC Brand Utilities */
+.bg-gradient-brand {
+  background: linear-gradient(135deg, #0D1B2A 0%, #1B263B 100%);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to right, #D4AF37, #F3E5AB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: #D4AF37;
+  color: #0D1B2A;
+}
